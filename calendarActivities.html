@@ -46,9 +46,16 @@ table {
 /* Styling for the column headers (days of the week) */
 th {
     padding: 			0 0.5em;
-    text-align: 		right;		/*center*/
+    text-align: 		center;
     background-color:	#f56a6a;   /*#32CD32;*/
-    color:				blue;		/*white*/
+    color:				white;
+    }
+
+/* Styling for the date numbers */
+.day  {     
+    font-size: 			large;
+    text-align: 		right;
+    color:				blue;
     }
 
 /* Styling for the individual cells (days) */
@@ -156,7 +163,7 @@ th.month {
 
 <p><div class="title">October 2018</div>
 <table border="1">
-<tr><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr>
+<tr><th><span class="day">Mon</span></th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr>
 <tr><td><span class="date">1</span></td>
 	<td><span class="date">2</span></td>
 	<td><span class="date">3</span></td>
