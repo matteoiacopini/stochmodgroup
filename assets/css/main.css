@@ -35,7 +35,6 @@ body {
 
 ol, ul {
 	list-style: none;
-	margin:   	10px 0;
 }
 
 blockquote, q {
@@ -2118,9 +2117,9 @@ input, select, textarea {
 /* List */
 
 	ol {
-		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
+		list-style: 	decimal;
+		margin: 		10px 0 2em 0;
+		padding-left: 	1.25em;
 	}
 
 		ol li {
@@ -2128,9 +2127,9 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		list-style: 	disc;
+		margin: 		10px 0 2em 0;
+		padding-left: 	1em;
 	}
 
 		ul li {
@@ -2138,18 +2137,18 @@ input, select, textarea {
 		}
 
 		ul.alt {
-			list-style: none;
-			padding-left: 0;
+			list-style: 	none;
+			padding-left: 	0;
 		}
 
 			ul.alt li {
 				border-top: solid 1px rgba(210, 215, 217, 0.75);
-				padding: 0.5em 0;
+				padding: 	0.5em 0;
 			}
 
 				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
+					border-top: 	0;
+					padding-top: 	0;
 				}
 
 	dl {
