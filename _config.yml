@@ -5,6 +5,8 @@ url:          https://matteoiacopini.github.io/stochmodgroup/
 
 theme: jekyll-theme-architect
 
+show_downloads: true
+
 plugins:
   - jekyll-feed
   - jekyll-coffeescript
